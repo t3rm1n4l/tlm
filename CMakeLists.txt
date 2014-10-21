@@ -44,6 +44,7 @@ ADD_SUBDIRECTORY(moxi)
 ADD_SUBDIRECTORY(couchdb)
 ADD_SUBDIRECTORY(geocouch)
 ADD_SUBDIRECTORY(ns_server ${CMAKE_CURRENT_SOURCE_DIR}/ns_server/build)
+ADD_SUBDIRECTORY(indexing-build-scripts)
 
 # Preparing for Sherlock!
 IF (IS_DIRECTORY "${CMAKE_CURRENT_SOURCE_DIR}/forestdb")
